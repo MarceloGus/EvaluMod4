@@ -117,6 +117,24 @@ function init(){
 			cero.setAttribute("style", "transform:scale(1,1)")
 			})
 		}
+		signo.onclick =function(e){
+			resultado.innerHTML = resultado.innerHTML + "-";
+			signo.addEventListener("mousedown", function(){
+			signo.setAttribute("style", "transform:scale(0.95,0.95)")
+			})
+			signo.addEventListener("mouseout", function(){
+			signo.setAttribute("style", "transform:scale(1,1)")
+			})
+		}
+		punto.onclick =function(e){
+			resultado.innerHTML = resultado.innerHTML + ".";
+			punto.addEventListener("mousedown", function(){
+			punto.setAttribute("style", "transform:scale(0.95,0.95)")
+			})
+			punto.addEventListener("mouseout", function(){
+			punto.setAttribute("style", "transform:scale(1,1)")
+			})
+		}
 		reset.onclick =function(e){
 			resetear();
 			reset.addEventListener("mousedown", function(){
@@ -150,6 +168,7 @@ function init(){
 			num2 = resultado.innerHTML;
 			resolver();	
 		}
+
 
 	function limpiar(){
 	resultado.innerHTML = "0";
