@@ -28,38 +28,103 @@ function init(){
 		var reset = document.getElementById("on")
 // eventos
 		uno.onclick =function(e){
-			document.getElementById("display").innerHTML = "1";
-			// resultado.innerHTML = resultado.innerHTML + "1";
+			resultado.innerHTML = resultado.innerHTML + "1";
+			uno.addEventListener("mousedown", function(){
+			uno.setAttribute("style", "transform:scale(0.95,0.95)")
+			})
+			uno.addEventListener("mouseout", function(){
+			uno.setAttribute("style", "transform:scale(1,1)")
+			})
 		}
 		dos.onclick =function(e){
 			resultado.innerHTML = resultado.innerHTML + "2";
+			dos.addEventListener("mousedown", function(){
+			dos.setAttribute("style", "transform:scale(0.95,0.95)")
+			})
+			dos.addEventListener("mouseout", function(){
+			dos.setAttribute("style", "transform:scale(1,1)")
+			})
 		}
 		tres.onclick =function(e){
 			resultado.innerHTML = resultado.innerHTML + "3";
+			tres.addEventListener("mousedown", function(){
+			tres.setAttribute("style", "transform:scale(0.95,0.95)")
+			})
+			tres.addEventListener("mouseout", function(){
+			tres.setAttribute("style", "transform:scale(1,1)")
+			})
 		}
 		cuatro.onclick =function(e){
 			resultado.innerHTML = resultado.innerHTML + "4";
+			cuatro.addEventListener("mousedown", function(){
+			cuatro.setAttribute("style", "transform:scale(0.95,0.95)")
+			})
+			cuatro.addEventListener("mouseout", function(){
+			cuatro.setAttribute("style", "transform:scale(1,1)")
+			})
 		}
 		cinco.onclick =function(e){
 			resultado.innerHTML = resultado.innerHTML + "5";
+			cinco.addEventListener("mousedown", function(){
+			cinco.setAttribute("style", "transform:scale(0.95,0.95)")
+			})
+			cinco.addEventListener("mouseout", function(){
+			cinco.setAttribute("style", "transform:scale(1,1)")
+			})
 		}
 		seis.onclick =function(e){
 			resultado.innerHTML = resultado.innerHTML + "6";
+			seis.addEventListener("mousedown", function(){
+			seis.setAttribute("style", "transform:scale(0.95,0.95)")
+			})
+			seis.addEventListener("mouseout", function(){
+			seis.setAttribute("style", "transform:scale(1,1)")
+			})
 		}
 		siete.onclick =function(e){
 			resultado.innerHTML = resultado.innerHTML + "7";
+			siete.addEventListener("mousedown", function(){
+			siete.setAttribute("style", "transform:scale(0.95,0.95)")
+			})
+			siete.addEventListener("mouseout", function(){
+			siete.setAttribute("style", "transform:scale(1,1)")
+			})
 		}
 		ocho.onclick =function(e){
 			resultado.innerHTML = resultado.innerHTML + "8";
+			ocho.addEventListener("mousedown", function(){
+			ocho.setAttribute("style", "transform:scale(0.95,0.95)")
+			})
+			ocho.addEventListener("mouseout", function(){
+			ocho.setAttribute("style", "transform:scale(1,1)")
+			})
 		}
 		nueve.onclick =function(e){
 			resultado.innerHTML = resultado.innerHTML + "9";
+			nueve.addEventListener("mousedown", function(){
+			nueve.setAttribute("style", "transform:scale(0.95,0.95)")
+			})
+			nueve.addEventListener("mouseout", function(){
+			nueve.setAttribute("style", "transform:scale(1,1)")
+			})
 		}
 		cero.onclick =function(e){
 			resultado.innerHTML = resultado.innerHTML + "0";
+			cero.addEventListener("mousedown", function(){
+			cero.setAttribute("style", "transform:scale(0.95,0.95)")
+			})
+			cero.addEventListener("mouseout", function(){
+			cero.setAttribute("style", "transform:scale(1,1)")
+			})
 		}
 		reset.onclick =function(e){
 			resetear();
+			reset.addEventListener("mousedown", function(){
+			reset.setAttribute("style", "transform:scale(0.95,0.95)")
+			})
+			reset.addEventListener("mouseout", function(){
+			reset.setAttribute("style", "transform:scale(1,1)")
+			})
 		}
 		mas.onclick =function(e){
 			num1 = resultado.innerHTML;
