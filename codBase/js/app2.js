@@ -169,7 +169,6 @@ function init(){
 			resolver();	
 		}
 
-
 	function limpiar(){
 	resultado.innerHTML = "0";
 	}
@@ -200,6 +199,8 @@ function init(){
 	resetear ();
 	resultado.innerHTML = res
 	}
+
+	// if(resultado.textContent.length < 8){
 
 }
 
